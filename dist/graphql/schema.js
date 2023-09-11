@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const typeDefs = `#graphql
 type User{
     id:ID
@@ -30,5 +32,4 @@ type Mutation{
     
 }
 `;
-
-export default typeDefs;
+exports.default = typeDefs;
