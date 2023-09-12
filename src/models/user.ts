@@ -24,7 +24,7 @@ const User = sequelize.define(
   },
   {
     timestamps: true,
-    // paranoid: true,
+    paranoid: true,
   }
 );
 
